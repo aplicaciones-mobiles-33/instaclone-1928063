@@ -4,7 +4,7 @@ import { PublicacionComponent } from './publicacion.component';
 
 const routes: Routes = [
   {
-    path: '/publicacion',
+    path: '',
     component: PublicacionComponent,
   }
 ];
@@ -13,4 +13,6 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class PublicacionRoutingModule {}
+export class PublicacionRoutingModule {
+  
+}
